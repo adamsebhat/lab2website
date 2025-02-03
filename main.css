@@ -49,7 +49,7 @@ body {
 header {
     text-align: center;
     padding: 50px;
-    background: url('../img/background.png') no-repeat center center/cover;
+    background: url('../img/background.jpeg') no-repeat center center/cover;
     color: black;
 }
 
@@ -67,3 +67,4 @@ footer {
     color: black;
     font-weight: bold;
 }
+
