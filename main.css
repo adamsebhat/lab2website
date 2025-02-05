@@ -9,18 +9,22 @@ body {
 
 /* Navigation bar */
 .navbar {
-    background-color: lightblue;
+    background-color: #ADD8E6; /* Light blue */
     overflow: hidden;
     display: flex;
     justify-content: center;
     padding: 10px;
+    max-width: 100%; /* Makes it responsive */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 .navbar ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
     display: flex;
     gap: 15px;
+    flex-wrap: wrap; /* Ensures content wraps on smaller screens */
 }
 
 .navbar li {
@@ -29,20 +33,22 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: black;
-    padding: 10px;
+    color: white; /* White text */
+    padding: 10px 15px;
     font-weight: bold;
-    transition: 0.3s;
+    border-radius: 4px; /* Rounded corners */
+    transition: 0.3s; /* Smooth color transitions */
+    background-color: #007BFF; /* Default button color (blue) */
 }
 
 .navbar a:hover {
-    background-color: #007BFF;
-    color: white;
+    background-color: #0056b3; /* Hover color (darker blue) */
+    color: #ffffff; /* Keep text white on hover */
 }
 
 .navbar a.active {
-    background-color: #0056b3;
-    color: white;
+    background-color: #FFD700; /* Active color (gold) */
+    color: #000000; /* Black text for contrast */
 }
 
 /* Header */
@@ -67,6 +73,7 @@ footer {
     color: black;
     font-weight: bold;
 }
+
 
 
 
